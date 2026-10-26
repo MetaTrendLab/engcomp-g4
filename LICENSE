@@ -1,0 +1,13 @@
+REAX Engine License 1.0 (SPDX: LicenseRef-REAX-Engine-License-1.0)
+
+The files in this repository are the kernel sources of the REAX engine-competition entry engcomp g4
+(ghcr.io/elninolab/g4@sha256:7779a018c9d72b88af504d5b10bd9e751c1f4b19322f7bbea6e41da349e3143b). They are published
+under the licence of the image they belong to and of its base image s1q9 G9XP
+(ghcr.io/johnkell9801-hub/s1q9@sha256:f1422b06f6098ad7b8939c1e05a48b82493d2ccc672912b92e21491256ca0898), the
+REAX Engine License 1.0, as stated in the image label org.opencontainers.image.licenses.
+
+- kernels/onorm.cu and kernels/onormpv.cu are derived from G9XP's files (authors rgh, ruj) with changes by engcomp.
+- kernels/ecrin.cu is engcomp's own code.
+
+As the REAX engine-competition rules provide, the changes made by engcomp are licensed to the licensor of the REAX
+Engine under the REAX Engine License 1.0 on submission. All other rights and terms are those of the REAX Engine License 1.0.
