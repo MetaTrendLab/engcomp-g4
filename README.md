@@ -69,4 +69,4 @@ the image).
 
 ## Licence
 
-See `LICENSE`.
+MIT (`LICENSE`). Origins of the derived files and credits: `NOTICE`.

@@ -1,0 +1,11 @@
+engcomp-g4 kernel sources
+
+kernels/ecrin.cu    - our own code (engcomp, MetaTrendLab).
+kernels/onorm.cu    - derived from the ONORM kernels of s1q9 G9XP (uid 220, ghcr.io/johnkell9801-hub/s1q9, author rgh),
+                      with our changes (NormArgs / PVNArgs fields xq / xs / xmu / xm / xrot).
+kernels/onormpv.cu  - derived from G9XP's PROFUSE-v kernel (author ruj, on rgh's ONORM), with our changes.
+
+G9XP is itself built on the REAX Engine (github.com/reaxlabs/reax-engine, REAX Engine License 1.1, Copyright (c) 2026
+productivity-boost.com Betriebs UG (haftungsbeschränkt) & Co. KG). Credit for the derived parts belongs to their authors;
+our changes are released under the MIT licence in LICENSE. As the REAX engine-competition rules provide, our changes are
+also licensed to the licensor of the REAX Engine on submission.
